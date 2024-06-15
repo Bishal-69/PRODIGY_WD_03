@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(64, 64, 134);
+    text-align: center;
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}
+
+.tik{
+    height: 60vh;
+    width: 60vh;
+    display: flex;  /** content lai flex way ma rakha with praper gao and together */
+    flex-wrap: wrap; /** wraping the conent if there is no snap and adjust in another line */
+   justify-content: center;
+   align-items:center; 
+}
+
+.box:active{
+    background-color: aquamarine;
+}
+
+.container{
+    height: 70vh;
+    display: flex;             /** with flex we can easily positioning the element */
+    justify-content: center;
+   align-items:center; 
+
+}
+
+.side{
+    justify-content: center;
+   
+}
+
+.box{
+    height:18vmin;
+    width: 18vmin;
+    margin : 5px;
+    border-radius: 20px;
+    font-size: 8vmin;  /** we can also we px or another function */  /** vmin cuz mathi sabai vmin xa so  *//
+    
+}
+
+
+
+.reset {
+    padding: 10px;
+    font-size: large;
+    background-color: black;
+    color: bisque;
+    border-radius: 15px;
+    width: 120px;
+
+}
+
+.reset:hover{
+    background-color: rgb(243, 74, 74);
+}
+
+.reset:active{
+    background-color: rgb(249, 39, 39);
+}
+
+.tik button{
+    color: yellow;
+}
+
+.new{
+    padding: 10px;
+    font-size: small;
+    background-color: rgb(6, 105, 14);
+    color: bisque; 
+    border-radius: 20px;
+    width: 150px;
+}
+
+.new:hover{
+    background-color: rgb(230, 101, 101);
+}
+
+.new:active{
+    background-color: rgb(249, 39, 39);
+}
+
+.message #win{
+    color: sandybrown; 
+    font-size:50px;
+    margin-top: 20px;
+
+
+}
+.message{
+    margin-bottom: 40px;
+    
+}
+
+
+
